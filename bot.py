@@ -1,7 +1,7 @@
 import requests
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+TOKEN = "5716954283:AAESJMdwVbJY89-dXt4MhZv2ShyzmfGWGVs"
 
 def cat(update, context):
     url = "https://api.thecatapi.com/v1/images/search"
