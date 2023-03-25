@@ -4,7 +4,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 
 TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 
-async cat(update, context):
+async def cat(update, context):
     url = "https://api.thecatapi.com/v1/images/search"
     response = requests.get(url).json()
     cat_image_url = response[0]['url']
